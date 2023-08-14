@@ -1,0 +1,207 @@
+body{ 
+   
+    background-color: rgb(230, 227, 227);
+
+}
+
+.nav{
+    color: rgb(255, 255, 255);
+  
+    font-size: 16px;
+  
+  
+  }
+  .purchase-link{
+    background-color: #12660e;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+    position:relative;
+    top: 20px;
+    left:1000px;
+  
+  }
+  ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  ul li a:hover {
+    color: #891a1a;
+  }
+  
+*{ 
+    box-sizing: border-box;
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+  
+}
+.head{
+
+
+   height: 80px;
+   width: 100%;
+   display: flex;
+   margin-top: -30px;
+   align-items: center;
+
+
+   line-height: 70px;
+   
+ 
+}
+
+.nav{
+  color: white;
+
+  font-size: 16px;
+
+
+}
+
+
+ul li {
+  display: inline-block;
+margin-right: 10px;
+
+  position:relative;
+  top: 28px;
+  left:1000px;
+
+}
+ul li a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+ul li a:hover {
+  color: #681414;
+}
+.tickets{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    margin-right: 50%;
+    margin: 30%;
+    text-align: center;
+}
+ .button{
+   
+    background-color: #12660e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+   
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: aqua;
+}
+
+
+
+
+
+
+.containerS{
+    
+    padding:25px;
+    min-height: 100vh;
+   
+   
+    
+  }
+  
+  .containerS form{
+    padding:20px;
+    position: relative;
+    top: -50px;
+    width:700px;
+    background: rgb(177, 203, 225);
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  
+  
+  .containerS form .side .down .caption{
+    font-size: 20px;
+    /* color:#333; */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .containerS form .side .down .enter{
+    margin:15px 0;
+  }
+  
+  .containerS form .side .down .enter span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .containerS form .side .down .enter input{
+    width: 100%;
+    border:1px solid #ffffff;
+    padding:10px 15px;
+    font-size: 15px;
+   
+  }
+  
+  .containerS form .side .down .enter input:focus{
+    border:1px solid #000;
+  }
+  
+  .containerS form .side .down .box{
+    gap:15px;
+  }
+  
+   
+  .containerS form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #12660e;
+    color:#fff;
+    margin-top: 5px;
+  
+  }
+  
+  .containerS form .submit-btn:hover{
+    background: #2ecc71;
+  }
+
+  footer {
+    background-color: green;
+    color: #fff9f9;
+text-align:justify ;
+    padding: 50px;
+    position: relative;
+    top: 655px;
+    left:-90px ;
+    font-size: 18px;
+    position: fixed;
+margin-top: 80px;
+width: 1650px;
+
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+}
+.footer-content p{
+  position: relative;
+  top: -30px;
+  left: 450px;
+}

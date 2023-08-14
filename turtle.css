@@ -1,0 +1,311 @@
+*{ 
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* body{ */
+ /* background-color:rgb(243, 206, 161); */
+/* } */
+.homepage{
+    background-color: rgba(205, 208, 204, 0.7);
+    background: url(images/backgrd1.jpg);
+}
+
+.catergories{
+    background:url(images/turtle3.jpg);
+    /* background-size:cover ; */
+    /* background-repeat: no-repeat; */
+}
+/*#first{
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 1000px;
+    /* height: auto; */
+  
+
+/* } */
+#Nav{
+    background: rgb(14, 147, 188);
+    height: 60px;
+    width: 100%;
+    
+}
+
+#Nav UL{
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+section .Box {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+  
+}
+/* Styling the background of
+    left floating section */
+section .Box .container {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+   
+}
+/* Styling the hover effect 
+    of left floating section */
+section .Box .container:hover {
+    background: #e91e63;
+}
+/* Styling the header of left
+    floating section */
+section .Box .container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Styling the paragraph of
+    left floating section */
+section .Box .container p {
+    margin: 10px 0 0;
+    padding: 0;
+  
+}
+
+#Nav UL LI{
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+a:hover{
+    background-color: rgb(70, 0, 0);
+}
+
+#Nav UL LI a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+section .tBox {
+    /* width: 50%; */
+    height: 100%;
+    /* padding: -5px; */
+    /* display: right; */
+    align-items: center;
+    justify-content: center
+}
+/* Styling the background of
+    left floating section */
+section .leftBox .contentT {
+    color:rgb(12, 12, 12);
+    background:white;
+    padding: 40px;
+    transition: .5s;
+}
+/* Styling the header of left
+    floating section */
+section .tBox .contentT h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Styling the paragraph of
+    left floating section */
+section .tBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+#heading{
+    padding: 25px 0;
+    text-align: center;
+}
+
+/*home img*/
+.home-img img{
+    width: 40%;
+    height: 50vh;
+    padding: 50px;
+}
+
+/* TURTLE CATERGORIES */
+table,th,td{
+    background-color: aliceblue;
+    border: 1px solid black;
+
+}
+.sec{
+    background:  url(images/hikkaduwa2.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5));
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+    .homepage{
+        background-color: white;
+    }
+    
+    /* Styling the body */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    /* Styling section, giving background
+        image and dimensions */
+    
+    
+    /* Styling the left floating section */
+    section .leftBox {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    /* Styling the background of
+        left floating section */
+    section .leftBox .content {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        transition: .5s;
+    }
+   
+    /* Styling the header of left
+        floating section */
+    section .leftBox .content h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    /* Styling the paragraph of
+        left floating section */
+    section .leftBox .content p {
+        margin: 10px 0 0;
+        padding: 0;
+    }
+    /* Styling the three events section */
+    section .events {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        float: right;
+        box-sizing: border-box;
+    }
+
+    /* HIKKADUWA */
+
+    .heeding{
+        padding: 0;
+        text-align: center;
+        font-size: 100px;
+    }
+    
+    .intro{
+        padding: 0;
+        
+        font-size: 50px;
+
+    }
+    
+    section .Box {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    {min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#bookNowButton {
+    padding: 15px 30px; /* Adjust padding values to make the button larger */
+    font-size: 18px;   /* Adjust font size for the button text */
+}
+    /* The background of the box*/
+    section .Box .info {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        transition: .5s;
+    }
+    /* the hover effects for the box*/
+    section .Box .info:hover {
+        background: #1b6771;
+    }
+
+    section .Box .info h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+   
+    section .Box .info p {
+        margin: 10px 0 0;
+        padding: 0;
+    }
+
+
+    .Table{
+        background-color:rgba(0, 0, 0, 0.5) ;
+        color: rgb(20, 18, 18);
+    }
+
+   
+
+    
+    /* Styling the three events section */
+     section .events { 
+        position: TOP;
+        width: 45%;
+        height: 100%;
+        /* background: rgba(0, 0, 0, 0.5); */
+        float: right;
+        box-sizing: border-box;
+    }
+    /* Styling the links of
+    /* the events section  */
+    section .events ul {
+        position: absolute;
+        top: 10%;
+      
+        margin: 0;
+        padding: 20px;
+       
+    }
+    /* /* Styling the lists of the event section  */
+    section .events ul li {
+        list-style: none;
+        background: #fff;
+        height: 130px;
+        margin: 15px 0;
+    }
+    /* /* Styling the time class of events section  */
+    section .events ul li .time {
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        background: #262626;
+        width: 30%;
+        height: 100%;
+       
+        float: left;
+        text-align: center;
+        transition: .5s;
+    }
+    

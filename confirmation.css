@@ -1,0 +1,65 @@
+.nav{
+    color: white;
+  
+    font-size: 16px;
+  
+  
+  }
+  
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+    position:relative;
+    top: 20px;
+    left:1000px;
+  
+  }
+  ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  ul li a:hover {
+    color: #5e0c0c;
+  }/* CSS for the header (same as Tickets page) */
+
+
+
+
+
+  /* Add your CSS styles here */
+  body {
+      font-family: Arial, sans-serif;
+      background-color:  rgb(177, 203, 225);
+  }
+  .header {
+      text-align: center;
+  
+      background-size: cover;
+    
+      padding: 100px 0;
+  }
+  .subheading {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 24px;
+  }
+  .message {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .summary {
+      margin: 20px auto;
+      width: 80%;
+      border-collapse: collapse;
+  }
+  .summary th,
+  .summary td {
+      border: 1px solid #000000;
+      padding: 8px;
+  }
+  .summary th {
+      background-color: #f2f2f2;
+  }

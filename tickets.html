@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buy Tickets</title>
+  <link rel="stylesheet" href="./tickets.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="Hikkaduwa.html">HIKKADUWA</a></li>
+  <li><a href="tickets.html">TICKETS</a></li>
+    <li><a href="details.html">DETAILS</a></li>
+        <li> <a href="payment.html">PAYMENT</a></li>
+            <li> <a href="confirmation.html">CONFIRMATION</a></li>
+
+            </ul>
+</nav>
+  <h1>BUY TICKETS</h1>
+<div class="form">
+    <div class="grp">
+      <label for="date-input">Select Date:</label>
+      <input type="date" id="input" required>
+  </div>
+  <br>
+  
+  <div class="input-group">
+      <label for="duration">Select duration:</label>
+      <select id="duration">
+          <option value="07:00-08:00">07:00-08:00</option>
+          <option value="08:00-09:00">08:00-09:00</option>
+          <option value="09:00-10:00">09:00-10:00</option>
+          <option value="10:00-11:00">10:00-11:00 (peak)</option>
+          <option value="12:00-13:00">12:00-01:00 (peak)</option>
+          <option value="14:00-15:00">02:00-03:00 (peak)</option>
+          <option value="15:00-16:00">03:00-04:00 (peak)</option>
+          <option value="17:00-18:00">05:00-06:00 (peak)</option>
+
+      </select>
+      <br>
+      <br>
+      <h2 class="guests">Guests Sri Lankan..</h2>
+          <br>
+          <div class="input-group">
+              <label for="ticket">Ticket Type:</label>
+              <select id="ticket">
+                  <option value="Sri Lankan">SriLankan</option>
+                  <option value="Foreign">Foreign</option>
+              </select>
+          </div>
+          <br>
+          <div class="guest">
+ <div class="input-group">
+  <label for="adults">Number of adults:</label>
+  <input type="number" id="adultSr" min="0" value="0" >
+ <button class="click" onclick="incrementGuest('adultSr')" class="in">+</button>
+ <button class="click" onclick="decrementGuest('adultSr')" class="in">-</button>
+  <br>
+  <br>
+
+  <div class="input-group">
+      <label for="infants">Number of infants:</label>
+      <input type="number" id="infantSr" min="0" value="0">
+      <button class="click" onclick="incrementGuest('infantSr')" class="in">+</button>
+       <button class="click" onclick="decrementGuest('infantSr')" class="in">-</button>
+      <br>
+      <br>
+
+      <div class="input-group">
+          <label for="children">Number of children:</label>
+          <input type="number" id="childrenSr" min="0" value="0">
+          <button class="click" onclick="incrementGuest('childrenSr')" class="in">+</button>
+          <button class="click" onclick="decrementGuest('childrenSr')" class="in">-</button>
+      </div>
+  </div>
+     
+      
+<br>
+
+<div id="pricingTable">
+  <div class="container">
+    <h2>Pricing List</h2>
+    <table id="pricingList" border="1">
+      <tr>
+        <th>Category</th>
+        <th>Normal Hour Price (USD)</th>
+        <th>Peak Hour Price (USD)</th>
+      </tr>
+      <tr>
+        <td>SL Adult</td>
+        <td>4</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>SL Child</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Foreigner Adult</td>
+        <td>10</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>Foreigner Child</td>
+        <td>5</td>
+        <td>8</td>
+      </tr>
+    </table>
+</div>
+<br><br>
+<h2 class="guests">Guests Foreigners..</h2>
+  <br>
+ <!-- <div class="input-groupp">  -->
+  <label for="ticket">Ticket Type:</label>
+  <select id="ticket">
+      <option value="Foreign">Foreign</option>
+      <option value="Sri Lankan">SriLankan</option>
+     
+  </select>
+</div>
+<br>
+<!-- <div class="input-groupp"> -->
+<label for="adults">Number of adults:</label>
+<input type="number" id="adultFr" min="0" value="0" >
+<button class="click" onclick="incrementGuest('adultFr')" class="in">+</button>
+<button class="click" onclick="decrementGuest('adultFr')" class="in">-</button>
+<br>
+<br>
+
+<!-- <div class="input-groupp"> -->
+<label for="infants">Number of infants:</label>
+<input type="number" id="infantFr" min="0" value="0">
+<button class="click" onclick="incrementGuest('infantFr')" class="in">+</button>
+<button class="click" onclick="decrementGuest('infantFr')" class="in">-</button>
+<br>
+<br>
+
+<!-- <div class="input-groupp"> -->
+<label for="adults">Number of children:</label>
+<input type="number" id="childrenFr" min="0" value="0">
+<button class="click" onclick="incrementGuest('childrenFr')" class="in">+</button>
+<button class="click" onclick="decrementGuest('childrenFr')" class="in">-</button>
+
+
+</div>
+<br>
+
+
+ <br>
+ <br>
+<div class="TotalB">
+  <button id="calculatBtn">Calculate Total</button></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button><a href="Details.html" class="purchase-link">Continue with Purchase</a></button>
+
+</div>
+</div>
+</div>
+
+
+</section>
+<div class="summary-table">
+<h2></h2>
+<table id="summary-table" border="1">
+<tr>
+
+
+<td>Date</td>
+<td id="summary-date"></td>
+</tr>
+<tr>
+<td>Time</td>
+<td id="summary-time">-</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td id="summary-duration">-</td>
+</tr>
+<tr>
+<td>Tickets</td>
+<td id="summary-tickets">-</td>
+</tr>
+<tr>
+<td>Total Payable</td>
+<td id="summary-total">-</td>
+</tr>
+</table>
+</div>
+
+
+</div>
+  <head>
+    <title>Buy Tickets</title>
+    <link rel="stylesheet" href="./tickets.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  
+
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>

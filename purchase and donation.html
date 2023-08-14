@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase and Donation Page
+        <link rel="stylesheet" href="turtle.css">
+    </title>
+</head>
+<head>
+    <title>Turtle Products</title>
+  </head>
+  <body>
+    <h1>Turtle Products List</h1>
+    <ul>
+      <li>
+        <h2>Turtle-shaped Pillow</h2>
+        <img src="images/th.jpg" alt="Turtle Pillow">
+        <p>A comfortable pillow in the shape of a turtle. Perfect for relaxing or decoration.</p>
+        <p>Price: rs.750</p>
+      </li>
+      <li>
+        <h2>Turtle-shaped Soap</h2>
+        <img src="images/turtle_soap.jpg" alt="Turtle Soap"width="300"height="200"
+        <br>
+        <br>
+        <p>Adorable turtle-shaped soap bars. They come in various colors and scents.</p>
+        <p>Price: rs.499 each</p>
+      </li>
+      <li>
+        <h2>Turtle Backpack</h2>
+        <img src="images/turtle_backpack.jpg"width="300"height="200"
+        <br>
+        <br>
+        <p>A cute backpack featuring a turtle design. It has multiple compartments for convenient storage.</p>
+        <p>Price: rs.3500</p>
+      </li>
+      <li>
+        <h2>Turtle-shaped Earrings</h2>
+        <img src="images/turtle_earrings.jpg"width="300"height="200"
+        <br>
+        <br>
+        <p>Stylish earrings in the shape of turtles. They are made of high-quality materials.</p>
+        
+        <p>Price: rs.500</p>
+      </li>
+    </ul>
+  </body>
+  </html>
+<body>
+    
+    <!-- Purchase form and payment gateway integration -->
+    <h1>Donation</h1>
+    <!-- Donation form and payment gateway integration -->
+</body>
+</html>
+
+
+    
+    
+        <form action="payment_process.php" method="POST">
+            <label for="product">Product:</label>
+            <select name="product" id="product">
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+                <!-- Add more product options as needed -->
+            </select><br>
+        
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="1" required><br>
+        
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br>
+        
+            <!-- Add more fields as needed (e.g., address, payment method) -->
+        
+            <input type="submit" value="Purchase">
+        </form>
+        
